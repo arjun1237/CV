@@ -96,13 +96,17 @@ main > *{
 .dot-container{
     display: inline-block;
     margin-right: 20px;
-    height: 10px;
+    height: 9px;
 }
 
 .tags{
     display: flex;
     flex-wrap: wrap;
     font-weight: 800;
+}
+
+section.profile .dot, section.games .dot, section.skills .dot, section.achievements .dot {
+    background: #828286;
 }
 
 .tag{
@@ -113,10 +117,27 @@ main > *{
     border-radius: 5px;
 }
 
-section.profile, section.games, section.skills, section.achievements{
+section.profile, section.games, section.skills, section.achievements, .links-contact{
     color: #828286;
 }
 
 section.profile > .line, section.games > .line, section.skills > .line, section.achievements > .line{
     background: #828286;
+}
+
+.links-contact > *{
+    margin-bottom: 15px;
+}
+
+.links-contact i{
+    margin-right: 15px;
+}
+
+.content-link{
+    margin-top: 0;
+}
+
+.projcet-link{
+    text-decoration: none;
+    font-weight: normal;
 }
