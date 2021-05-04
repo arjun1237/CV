@@ -118,11 +118,11 @@ section.profile .dot, section.games .dot, section.skills .dot, section.achieveme
 }
 
 section.profile, section.games, section.skills, section.achievements, .links-contact{
-    color: #828286;
+    color: #57575e;
 }
 
 section.profile > .line, section.games > .line, section.skills > .line, section.achievements > .line{
-    background: #828286;
+    background: #646469;
 }
 
 .links-contact > *{
