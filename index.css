@@ -34,11 +34,12 @@ header{
 
 main{
     /* background: chartreuse; */
-    margin: 50px 170px;
+    margin: 50px auto;
     display: grid;
     grid-gap: 80px;
     grid-template-columns: 1fr 3fr;
     font-size: 30px;
+    max-width: 1700px;
 }
 
 main > *{
@@ -59,7 +60,7 @@ main > *{
 
 .place, .title{
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-right: 20px;
 }
 
@@ -74,10 +75,22 @@ main > *{
     text-align: justify;
 }
 
+.cont-small{
+    margin: 16px 0;
+}
+
 .content-head{
     display: grid;
-    grid-template-columns: 11fr 6fr 4fr;
+    grid-template-columns: 14fr 11fr 4fr;
     text-transform: uppercase;
+}
+
+.head2{
+    grid-template-columns: 7fr 9fr 4fr;
+}
+
+.content-head > div:last-of-type{
+    font-size: 16px;
 }
 
 .content-head-left{
@@ -113,7 +126,7 @@ section.profile .dot, section.games .dot, section.skills .dot, section.achieveme
     background: #878b8dd5;
     color: white;
     padding: 5px 10px;
-    margin: 10px 20px 10px 0;
+    margin: 5px 10px 5px 0;
     border-radius: 5px;
 }
 
@@ -131,6 +144,8 @@ section.profile > .line, section.games > .line, section.skills > .line, section.
 
 .links-contact i{
     margin-right: 15px;
+    display: inline-block;
+    width: 25px;
 }
 
 .content-link{
@@ -138,6 +153,12 @@ section.profile > .line, section.games > .line, section.skills > .line, section.
 }
 
 .projcet-link{
-    text-decoration: none;
     font-weight: normal;
+    color: #106a7a;
+    text-decoration: none;
+    border-bottom: 1px solid #106a7a;
+}
+
+.info a{
+    text-decoration: none;
 }
